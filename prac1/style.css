@@ -1,0 +1,51 @@
+.container {
+    background-color: yellow;
+    color: white;
+    border: 8px;
+    border-radius: 8%;
+    border-color: purple;
+    margin-top: 10px;
+}
+
+.red {
+    color: red;
+}
+
+.bg-green {
+    background: green;
+}
+
+body {
+    background: red url(img/desktop\ background\(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-redFont-white {
+    background-color: red;
+    color: white;
+}
+
+#first {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navigationBarItem {
+    border: 2px solid red;
+    border-radius: 50%;
+    font-style: italic;
+    background-color: blue;
+    color: white;
+    margin-left: 187px;
+    margin-right: 5px;
+}
+
+.navigationBar {
+    background-color: darkblue;
+    padding: 6px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
