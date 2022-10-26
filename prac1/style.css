@@ -1,51 +1,52 @@
-.container {
-    background-color: yellow;
-    color: white;
-    border: 8px;
-    border-radius: 8%;
-    border-color: purple;
-    margin-top: 10px;
-}
-
-.red {
-    color: red;
-}
-
-.bg-green {
-    background: green;
-}
-
-body {
-    background: red url(img/desktop\ background\(1\).jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.bg-redFont-white {
-    background-color: red;
-    color: white;
-}
-
-#first {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.navigationBarItem {
-    border: 2px solid red;
-    border-radius: 50%;
-    font-style: italic;
-    background-color: blue;
-    color: white;
-    margin-left: 187px;
-    margin-right: 5px;
-}
-
-.navigationBar {
-    background-color: darkblue;
-    padding: 6px;
-}
-
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav div {
+    margin: auto;
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+    padding: 0px 4px 0px 4px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 5vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hello {
+    margin: 4px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    justify-content: center;
+}
+
+.hello {
+    height: 300px;
+    width: 300px;
+    outline: rgb(82, 18, 18) ridge 3px;
+    background-color: rgba(56, 56, 56, 0.8);
+    text-align: center;
+    
+    
 }
